@@ -106,10 +106,10 @@ def change(sort_list):
 
     #calculating the new Y values  
     for j in floats_list:
-        if float(j[0])>50.0 and float(j[0])<120.0:
+        if float(j[0])>50.0:
             default_x.append(j[0])
             changed_y.append(str((float(j[1]))+10.0))
-        if float(j[0])<=50.0 and float(j[0])>-120.0:
+        if float(j[0])<=50.0:
             default_x.append(j[0])
             changed_y.append(j[1])
             
